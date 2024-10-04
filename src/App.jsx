@@ -66,7 +66,7 @@ function App() {
     >
       <div className="flex flex-col justify-center items-center mx-auto px-4 w-full md:w-[50%] md:px-[50px] py-[50px] backdrop-blur-[5px] bg-black bg-opacity-20 rounded-[10px]">
         <h1 className="text-white font-semibold mb-[20px] md:mb-[30px] text-[20px] md:text-[40px]">
-          Convert Currencies!
+          Currency Converter
         </h1>
         <Input
           label={"Enter the money value"}
