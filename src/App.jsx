@@ -1,10 +1,10 @@
 import { useState } from "react";
-import Input from "./components/input";
+import Input from "./components/AmountInput";
 import { useEffect } from "react";
 import axios from "axios";
-import Dropdown from "./components/dropdown";
+import Dropdown from "./components/CurrencySelector";
 import "./index.css";
-import Result from "./components/result";
+import Result from "./components/ConversionResult";
 import { BiError } from "react-icons/bi";
 
 function App() {
